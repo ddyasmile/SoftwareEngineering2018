@@ -85,7 +85,8 @@ Vue的简单体现在几个方面：
 >指令的职责是，当表达式的值改变时，将其产生的连带影响，响应式地作用于 DOM。(指令)<br>
 >Vue 知道 `vm.reversedMessage` 依赖于 `vm.message`，因此当 `vm.message` 发生改变时，所有依赖 `vm.reversedMessage` 的绑定也会更新。（计算属性）<br>
 >Vue 通过 `watch` 选项提供了一个更通用的方法，来响应数据的变化。（侦听器）<br>
->`<div v-bind:class="{ active: isActive }"></div>`  上面的语法表示 `active` 这个 `class` 存在与否将取决于数据属性 `isActive` 的 *truthiness*。
+>`<div v-bind:class="{ active: isActive }"></div>`  上面的语法表示 `active` 这个 `class` 存在与否将取决于数据属性 `isActive` 的 *truthiness*。<br>
+
 Vue完全是响应式的。
 
 ---
