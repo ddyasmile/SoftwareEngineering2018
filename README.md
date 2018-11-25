@@ -6,6 +6,8 @@
 
 >1. homework1.md
 >2. homework2.md
+>3. homework3
+
 
 ---
 
