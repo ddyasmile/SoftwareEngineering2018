@@ -1,6 +1,31 @@
-# homework-3
+# Homework3
 
-> A Vue.js project
+> A Vue.js project<br/>
+> There only is little uncomplete feature now<br/>
+> There are only ```./src``` and ```./test``` in this repo, others are default.
+
+## Configuration Option
+
+```bash
+# install vue-cli
+npm install -g vue-cli
+
+# initialize
+vue init webpack <project name>
+
+#configuration
+? Project name <project name>
+? Project descripition A Vue.js project
+? Author <author>
+? Vue build standalone
+? Install vue-router? Yes
+? Use ESLint to lint your code? Yes
+? Pick an ESLint preset Standard
+? Set up unit tests Yes
+? Pick a test runner karma
+? Setup e2e tests with Nightwatch? Yes
+...
+```
 
 ## Build Setup
 
