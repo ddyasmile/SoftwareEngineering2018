@@ -7,8 +7,8 @@
       Start: <input type="text" name="Start" v-bind:value="startWord">
       End: <input type="text" name="End" v-bind:value="endWord">
       <br/><br/><br/>
-      <button>Come on</button>
     </form>
+    <button v-on:click="work" class="button">Come on</button>
     <br/><br/>
     <h3>Output: {{Ladder}}</h3>
   </div>
@@ -25,6 +25,11 @@ export default {
       startWord: 'code',
       endWord: 'data',
       Ladder: 'code->cade->cate->date->data'
+    }
+  },
+  methods: {
+    work: function () {
+      this.Ladder = this.startWord + '->' + this.endWord
     }
   }
 }
